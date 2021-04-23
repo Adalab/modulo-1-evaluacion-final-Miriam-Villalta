@@ -1,8 +1,18 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #304268;
+  justify-content: center;
+  align-items: center;
+
+  &__menu {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+
+.arrow-up {
+  height: 30px;
+  width: 40px;
 }

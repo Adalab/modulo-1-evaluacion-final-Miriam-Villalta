@@ -1,5 +1,8 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+  box-sizing: border-box;
+  position: fixed;
+  border: solid 1px black; /*provisional*/
+  height: 40px; /*provisional*/
+  width: 40px; /*provisional*/
+  background-color: $background-color;
 }
