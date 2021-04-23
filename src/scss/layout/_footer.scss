@@ -4,12 +4,24 @@ footer {
   background-color: #304268;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   &__menu {
     color: white;
-    text-decoration: none;
-    text-transform: uppercase;
+    margin: 30px;
   }
+}
+li {
+  list-style: none;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: $text-color;
+  text-transform: uppercase;
+  line-height: 30px;
 }
 
 .arrow-up {

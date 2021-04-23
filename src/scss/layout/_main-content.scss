@@ -1,45 +1,50 @@
 .article1 {
-  padding: 30px 15px 45px;
+  padding: 30px 15px 65px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 50px 1fr;
+  grid-template-rows: 20px 50px 60px 50px;
   background-color: #ffffff;
-}
 
-.h2-art {
-  font-size: 14px;
-  text-transform: $text-cap;
-  color: #8ccbea;
-}
+  &__title1 {
+    font-size: 14px;
+    text-transform: $text-cap;
+    color: #8ccbea;
+  }
 
-.article-title {
-  font-size: 24px;
-  text-transform: $text-cap;
-}
+  &__title2 {
+    font-size: 24px;
+    text-transform: $text-cap;
+  }
 
-.text-insomnia {
-  color: $text-art-p;
-}
+  &__text-insomnia {
+    color: $text-art-p;
+  }
 
-.go {
-  width: 70px;
-  height: 40px;
-  border-radius: 40px;
-  font-size: 20px;
-  color: $orange;
-  border: solid 0.2rem $orange;
+  &__go {
+    width: 70px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 20px;
+    color: $orange;
+    border: solid 0.2rem $orange;
+    transform: translate(20px, 40px);
+  }
 }
 
 .article2 {
-  padding: 15px 30px 60px;
+  padding: 40px 30px 60px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-column: 1 / 4;
+  grid-template-rows: 40px 120px 120px 120px 50px;
   background-color: #eff9ff;
   text-align: center;
 
   &__article-title {
+    font-size: 24px;
+    font-family: $font-bold;
+    text-transform: capitalize;
+    line-height: 1.6px;
+    padding: 15px;
   }
 
   &__reasons {
@@ -49,5 +54,7 @@
     color: white;
     background-color: $orange;
     border: none;
+    font-size: 20px;
+    transform: translate(50%);
   }
 }
