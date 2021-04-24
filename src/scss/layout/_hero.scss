@@ -1,4 +1,4 @@
-.hero-titles {
+.hero {
   box-sizing: content-box;
   display: flex;
   width: 100%;
@@ -6,39 +6,54 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: cadetblue;
-  color: $text-color;
-}
-
-.text-hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  transform: translate(0, 30vh);
   text-align: center;
-}
+  background: url();
+  background-color: cadetblue;
+  color: $text-color;
 
-h1 {
-  width: 300px;
-  height: 100px;
-  text-transform: uppercase;
-  font-size: 42px;
-  font-family: $font-bold;
-  border: solid black 1px;
-}
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translate(0, 30vh);
+    text-align: center;
+  }
 
-.subtitle {
-  font-weight: unset;
-  font-size: 16px;
-  height: 1rem;
-  border: solid black 1px;
-  margin: 20px;
-}
+  &__h1 {
+    width: 300px;
+    height: 100px;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-family: $font-bold;
+    border: solid black 1px;
 
-.icon {
-  height: 45px;
-  width: 45px;
-  border: none;
-  border-radius: 50%;
-  background-color: white;
+    @media all and (min-width: 768px) {
+      font-size: 80px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 100px;
+    }
+  }
+
+  &__subtitle {
+    font-weight: unset;
+    font-size: 16px;
+    height: 1rem;
+    border: solid black 1px;
+    margin: 20px;
+
+    @media all and (min-width: 768px) {
+      font-size: 24px;
+    }
+    @media all and (min-width: 1200px) {
+    }
+  }
+
+  &__icon {
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+  }
 }

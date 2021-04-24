@@ -5,6 +5,10 @@
   grid-template-rows: 20px 50px 60px 50px;
   background-color: #ffffff;
 
+  @media all and (min-width: 1200px) {
+    padding: 60px 275px;
+  }
+
   &__title1 {
     font-size: 14px;
     text-transform: $text-cap;
@@ -21,13 +25,21 @@
   }
 
   &__go {
-    width: 70px;
+    width: 76px;
     height: 40px;
     border-radius: 40px;
     font-size: 20px;
     color: $orange;
     border: solid 0.2rem $orange;
     transform: translate(20px, 40px);
+
+    @media all and (min-width: 768px) {
+      width: 90px;
+    }
+
+    @media all and (min-width: 1280px) {
+      width: 160px;
+    }
   }
 }
 
@@ -41,8 +53,13 @@
   justify-items: center;
   line-height: 1.75rem;
 
-  @media all and (min-width: 678px) {
+  @media all and (min-width: 768px) {
+    height: 397px;
     grid-template-rows: 60px 230px 120px;
+  }
+
+  @media all and (min-width: 1200px) {
+    padding-inline: 82px;
   }
 
   &__article-title {
@@ -60,28 +77,27 @@
 
   &__art1 {
     grid-column: span 3;
-    margin: 30px;
+    margin: 45px;
 
-    @media all and (min-width: 678px) {
+    @media all and (min-width: 768px) {
       grid-column: span 1;
     }
   }
 
   &__art2 {
     grid-column: span 3;
-    margin: 30px;
+    margin: 45px;
 
-    @media all and (min-width: 678px) {
+    @media all and (min-width: 768px) {
       grid-column: span 1;
     }
   }
 
   &__art3 {
     grid-column: span 3;
-    padding: 30px;
-    margin: 20px;
+    margin: 45px;
 
-    @media all and (min-width: 678px) {
+    @media all and (min-width: 768px) {
       grid-column: span 1;
     }
   }
@@ -96,5 +112,10 @@
     font-size: 20px;
     grid-column: span 3;
     margin: 60px;
+
+    @media all and (min-width: 768px) {
+      margin: 0px;
+      transform: translate(0, -30px);
+    }
   }
 }
