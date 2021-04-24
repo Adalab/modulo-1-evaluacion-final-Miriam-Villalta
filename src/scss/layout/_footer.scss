@@ -3,21 +3,25 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: #304268;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
 
   &__menu {
     color: white;
-    margin: 30px;
-    height: 200px;
+    height: 100px;
     width: 200px;
   }
 
   &__rrss {
-    margin: 30px;
     height: 200px;
     width: 100vw;
+  }
+
+  &__copy {
+    height: 10px;
+    width: auto;
+    order: 2;
   }
 }
 li {
@@ -37,8 +41,7 @@ a:active {
 .arrow-up {
   height: 45px;
   width: 45px;
-  border: black solid 1px;
   border-radius: 50%;
   background-color: white;
-  transform: translate(0, -6rem);
+  border: none;
 }
