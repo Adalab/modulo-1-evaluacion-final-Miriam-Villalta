@@ -34,10 +34,16 @@
 .article2 {
   padding: 40px 30px 60px;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 40px 120px 120px 120px 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 40px 120px 120px 120px 110px;
   background-color: #eff9ff;
   text-align: center;
+  justify-items: center;
+  line-height: 1.75rem;
+
+  @media all and (min-width: 678px) {
+    grid-template-rows: 60px 230px 120px;
+  }
 
   &__article-title {
     font-size: 24px;
@@ -45,6 +51,39 @@
     text-transform: capitalize;
     line-height: 1.6px;
     padding: 15px;
+    grid-column: span 3;
+  }
+
+  &__title {
+    font-family: $font-bold;
+  }
+
+  &__art1 {
+    grid-column: span 3;
+    margin: 30px;
+
+    @media all and (min-width: 678px) {
+      grid-column: span 1;
+    }
+  }
+
+  &__art2 {
+    grid-column: span 3;
+    margin: 30px;
+
+    @media all and (min-width: 678px) {
+      grid-column: span 1;
+    }
+  }
+
+  &__art3 {
+    grid-column: span 3;
+    padding: 30px;
+    margin: 20px;
+
+    @media all and (min-width: 678px) {
+      grid-column: span 1;
+    }
   }
 
   &__reasons {
@@ -55,6 +94,7 @@
     background-color: $orange;
     border: none;
     font-size: 20px;
-    transform: translate(50%);
+    grid-column: span 3;
+    margin: 60px;
   }
 }
