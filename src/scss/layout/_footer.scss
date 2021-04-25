@@ -52,6 +52,18 @@
     border: none;
     transform: translate(0, -70px);
 
+    &:hover {
+      @keyframes intro {
+        from {
+          transform: scale(0);
+        }
+
+        to {
+          transform: scale(1);
+        }
+      }
+    }
+
     @media all and (min-width: 768px) {
     }
   }
