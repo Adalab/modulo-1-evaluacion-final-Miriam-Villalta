@@ -77,6 +77,7 @@
   background-color: white;
   border: none;
   transform: translate(175px, -67px);
+  display: none;
 
   &__icon {
     transform: translateY(4px);
@@ -101,6 +102,7 @@
 
   @media all and (min-width: 768px) {
     transform: translate(315px, -67px);
+    display: block;
   }
 
   @media all and (min-width: 1200px) {
