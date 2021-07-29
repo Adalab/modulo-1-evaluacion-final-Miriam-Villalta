@@ -7,10 +7,11 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  background-image: url(../images/cover.jpg);
+  background-image: url(../images/big-city.jpg);
   background-position: center;
+  background-size: cover;
   background-color: $background-color;
-  color: $text-color;
+  color: $text-color-h1;
   padding-bottom: 28px;
 
   &__title {
@@ -45,13 +46,16 @@
     font-size: 16px;
     height: 1rem;
     margin: 20px;
+    transform: translate(0px, 50px);
 
     @media all and (min-width: 768px) {
       font-size: 24px;
       height: 2rem;
+      transform: translate(0px);
     }
     @media all and (min-width: 1200px) {
       margin: 0;
+      transform: translate(0px);
     }
   }
 
