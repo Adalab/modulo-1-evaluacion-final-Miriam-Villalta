@@ -7,26 +7,26 @@ Made with HTML and CSS, design of a web.
 ## Type of files:
 
 - _HTML_
-- _SCSS
-- _Imágenes (.svg, .jpg)
+- _SCSS_
+- _Imágenes (.svg, .jpg)_
 
 ### HTML files:
 
-- _Index.html
-- _header.html
-- _hero.html
-- _main.html
-- _footer.html
+- _Index.html_
+- _header.html_
+- _hero.html_
+- _main.html_
+- _footer.html_
 
 ### SCSS files:
 
-- _main.scss
-- _\_header.scss
-- _\_hero.scss
-- _\_main-content.scss
-- _\_footer.scss
-- _\_resert.scss
-- _\_variables.scss
+- _main.scss_
+- _\_header.scss_
+- _\_hero.scss_
+- _\_main-content.scss_
+- _\_footer.scss_
+- _\_resert.scss_
+- _\_variables.scss_
 
 ## File structure 
 
