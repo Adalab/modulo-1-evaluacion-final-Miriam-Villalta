@@ -6,9 +6,9 @@ Made with HTML and CSS, design of a web.
 
 ## Type of files:
 
-- HTML
+-_ HTML
 - SCSS
-- Imágenes (.svg, .jpg)
+- Imágenes (.svg, .jpg)_
 
 ### HTML files:
 
