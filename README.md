@@ -6,7 +6,7 @@ Made with HTML and CSS, design of a web.
 
 ## Type of files:
 
-- _HTML
+- _HTML_
 - _SCSS
 - _Imágenes (.svg, .jpg)
 
