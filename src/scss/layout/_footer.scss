@@ -14,7 +14,7 @@
 
 .sections {
   display: flex;
-  height: 400px;
+  height: 200px;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -23,7 +23,6 @@
   @media all and (min-width: 768px) {
     flex-direction: row;
     text-align: initial;
-    //height: 30vh;
     align-items: flex-start;
     justify-content: space-between;
   }
