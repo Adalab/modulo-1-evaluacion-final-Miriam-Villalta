@@ -1,35 +1,34 @@
-!
 
-# Módulo 1: Evaluación final
 
-Ejercicio realizado los días 23-26 de abril de 2021.
-Maquetación Web en base a un diseño previo usando Adalab Web Starter Kit.
+# Web Design
 
-Los tipos archivos usados son:
+Made with HTML and CSS, design of a web.
 
-- HTML
-- CSS
-- Imágenes (.svg, .jpg)
+## Type of files:
 
-Archivos HTML:
+- _HTML_
+- _SCSS_
+- _Imágenes (.svg, .jpg)_
 
-- Index.html
-- header.html
-- hero.html
-- main.html
-- footer.html
+### HTML files:
 
-Archivos SCSS:
+- _Index.html_
+- _header.html_
+- _hero.html_
+- _main.html_
+- _footer.html_
 
-- main.scss
-- \_header.scss
-- \_hero.scss
-- \_main-content.scss
-- \_footer.scss
-- \_resert.scss
-- \_variables.scss
+### SCSS files:
 
-## Estructura de carpetas
+- _main.scss_
+- _\_header.scss_
+- _\_hero.scss_
+- _\_main-content.scss_
+- _\_footer.scss_
+- _\_resert.scss_
+- _\_variables.scss_
+
+## File structure 
 
 ```
 src
